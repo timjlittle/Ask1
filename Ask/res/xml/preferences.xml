@@ -1,0 +1,8 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<EditTextPreference
+   android:key="ANSWERS"
+   android:title="@string/pref_answer_list_Title"
+   android:summary="@string/pref_answer_summary_text"
+   android:defaultValue="@string/pref_default_answers" />
+
+</PreferenceScreen>
