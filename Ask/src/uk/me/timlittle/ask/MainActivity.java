@@ -20,6 +20,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
+/**************************************************
+ * 
+ * @author TJL-Dell
+ *
+ * Simple Android App that shows a random message when the phone is shaken
+ */
 public class MainActivity extends Activity  implements ShakeEventManager.ShakeListener {
 
 	private List<String> ANSWER_LIST = new ArrayList<String>();
